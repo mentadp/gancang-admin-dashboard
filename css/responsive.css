@@ -14,6 +14,7 @@
 
   .sidebar {
     display: none;
+    padding: 0 1.5em;
   }
 
   .sidebar .sidebar-title .sidebar-title-close {
@@ -25,17 +26,17 @@
     padding: 1em;
   }
 
-  .main .main-container .welcome-card {
+  .main .main-container .welcome-card .welcome-card-content {
     flex-direction: column;
   }
 
-  .main .main-container .welcome-card h3 {
+  .main .main-container .welcome-card .welcome-card-content h3 {
     font-size: 1.3rem;
     margin-top: 20px;
     text-align: center;
   }
 
-  .main .main-container .welcome-card img {
+  .main .main-container .welcome-card .welcome-card-content img {
     margin: 0 auto;
   }
 
